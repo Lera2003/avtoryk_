@@ -1,0 +1,115 @@
+body {
+  position: relative;
+  font-family: Arial, sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: auto;
+  padding-bottom: 0;
+}
+
+.header img{
+  width: 60px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  color: #d61e1e;
+}
+
+/* Стили для шапки */
+.head {
+  box-sizing: border-box;
+  background-color: #d61e1e;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.head h1 {
+  margin: 0;
+}
+
+.head p {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Стили для основного содержимого */
+main {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  width: 32%;
+  flex-direction: column;
+  margin-right: 2%;
+  height: 220px;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.card img{
+
+  width: 100%;
+}
+
+.card a{
+  color: #000;
+  text-decoration: none;
+}
+
+.card a:hover{
+  color: #d61e1e;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #d61e1e;
+}
+
+.footer {
+  padding: 25px 0;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
